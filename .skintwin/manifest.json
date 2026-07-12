@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jax-a11y/skintwin-ecosystem-design/main/schemas/ecosystem-manifest.schema.json",
+  "manifestVersion": "1.0",
+  "github": "jax-a11y/bolt.ceo",
+  "layer": "dev-tooling",
+  "role": "orchestration-ide",
+  "description": "JAX CEO (Cognitive Execution Orchestration): bolt.diy fork \u2014 AI coding-agent web IDE with WebContainer runtime and Marduk / Deep Tree Echo agent personas, used as the ecosystem's orchestration/dev tool.",
+  "designAlias": "org-skin (dev/org tooling role)",
+  "gatewayPrefix": null,
+  "provides": [],
+  "consumes": [],
+  "events": {
+    "publishes": [],
+    "subscribes": []
+  },
+  "ci": {
+    "workflows": [
+      "ci.yaml (typecheck + vitest)"
+    ],
+    "usesReusable": false
+  },
+  "registry": "https://github.com/jax-a11y/skintwin-ecosystem-design/blob/main/registry/ecosystem.json"
+}
